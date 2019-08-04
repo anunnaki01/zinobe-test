@@ -22,10 +22,10 @@ Para instalar la aplicacion se necesita en la maquina tener instalado
 
 * Clonar este repositorio en su maquina
 
-* Se debe crear una base de datos en mysql e importar el fichero app-dump.sql para generar la tabla users:
+* Se debe crear una base de datos en mysql e importar el fichero **app-dump.sql** para generar la tabla users:
 
 * Para conectar la aplicacion a la base de datos creada se debe ingresar al fichero
-config/database.php y modificar los datos de conección (host, database, username, password)
+**config/database.php** y modificar los datos de conección (host, database, username, password)
 por los datos de su servicio de mysql.
 
 * Ejecutar el comando **composer install** en la raiz del proyecto para descargar paquetes necesarios en la aplicación.
@@ -45,7 +45,7 @@ Nota: En caso de que su puerto 80 este ocupado puede cambiarlo por el que desee 
 
 **vendor/bin/phpunit tests/**
 
-* Para ver el coverage solo basta con entrar al directorio coverage/ y abrir en el navegador el fichero index.html
+* Para ver el coverage solo basta con entrar al directorio **coverage/** y abrir en el navegador el fichero **index.html**
 
 Nota: En caso de querer generar el coverage nuevamente ejecutar el comando 
 
