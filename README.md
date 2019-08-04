@@ -30,7 +30,7 @@ por los datos de su servicio de mysql.
 
 * Usar el siguiente comando para activar las rutas de la aplicación:
 
-sudo php -S localhost:80 
+**sudo php -S localhost:80** 
 
 Nota: En caso de que su puerto 80 este ocupado puede cambiarlo por el que desee y debe agregarlo al ingresar a la aplicación.
 
@@ -41,10 +41,10 @@ Nota: En caso de que su puerto 80 este ocupado puede cambiarlo por el que desee 
 
 * Para correr las pruebas de la aplicación se debe estar ubicado en la raiz del proyecto y ejecurar el siguiente comand:
 
-vendor/bin/phpunit tests/
+**vendor/bin/phpunit tests/**
 
 * Para ver el coverage solo basta con entrar al directorio coverage/ y abrir en el navegador el fichero index.html
 
 Nota: En caso de querer generar el coverage nuevamente ejecutar el comando 
 
-vendor/bin/phpunit tests --coverage-html=coverage
+**vendor/bin/phpunit tests --coverage-html=coverage**
