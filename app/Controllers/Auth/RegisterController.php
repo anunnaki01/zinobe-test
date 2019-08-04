@@ -62,7 +62,7 @@ class RegisterController extends Controller
         $_SESSION['name'] = $_POST['name'];
         $_SESSION['email'] = $_POST['email'];
 
-        return redirect('/admin/home');
+        return redirect('/admin/directory');
     }
 
     /**
