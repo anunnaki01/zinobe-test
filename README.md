@@ -20,13 +20,15 @@ Para instalar la aplicacion se necesita en la maquina tener instalado
 
 ## Instrucciones
 
+* Clonar este repositorio en su maquina
+
 * Se debe crear una base de datos en mysql e importar el fichero app-dump.sql para generar la tabla users:
 
 * Para conectar la aplicacion a la base de datos creada se debe ingresar al fichero
 config/database.php y modificar los datos de conección (host, database, username, password)
 por los datos de su servicio de mysql.
 
-* Ejecutar el comando **composer install** para descargar paquetes necesarios en la aplicación.
+* Ejecutar el comando **composer install** en la raiz del proyecto para descargar paquetes necesarios en la aplicación.
 
 * Usar el siguiente comando para activar las rutas de la aplicación:
 
