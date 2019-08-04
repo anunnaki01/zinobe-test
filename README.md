@@ -41,7 +41,7 @@ Nota: En caso de que su puerto 80 este ocupado puede cambiarlo por el que desee 
 
 ## Pruebas
 
-* Para correr las pruebas de la aplicación se debe estar ubicado en la raiz del proyecto y ejecurar el siguiente comand:
+* Para correr las pruebas de la aplicación se debe estar ubicado en la raiz del proyecto y ejecurar el siguiente comando:
 
 **vendor/bin/phpunit tests/**
 
