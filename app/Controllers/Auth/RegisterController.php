@@ -33,6 +33,10 @@ class RegisterController extends Controller
     {
         parent::__construct();
 
+        if (!empty($_SESSION['email'])) {
+            header('location: /admin/directory');
+        }
+
         $this->registerUserUseCase = new RegisterUserUseCase(new EloquentUserRepository());
     }
 

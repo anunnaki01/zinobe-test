@@ -28,6 +28,7 @@ $router->set404(function () {
     header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
     echo 'Ruta no encontrada';
 });
+
 $router->before('GET|POST', '/admin/.*', function () {
     if (!isset($_SESSION['email'])) {
         header('location: /');
